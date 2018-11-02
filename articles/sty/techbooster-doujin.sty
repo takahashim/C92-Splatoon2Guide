@@ -67,21 +67,21 @@
 \fi%
 }
 
-\setlength{\paperheight}    {210 truemm}
-\setlength{\paperwidth}     {148 truemm}
-\setlength{\textheight}     {173 truemm}
-\setlength{\textwidth}      {113 truemm}
-\setlength{\marginparwidth} {0   truemm}
-\setlength{\marginparsep}   {0   truemm}
-\setlength{\oddsidemargin}  {15  truemm}
-\setlength{\evensidemargin} {15  truemm}
-\setlength{\topmargin}      {5   truemm}
-\setlength{\headsep}        {5   truemm}
-\setlength{\headheight}     {5   truemm}
-\setlength{\footskip}       {10  truemm}
-\setlength{\hoffset}{-1in}
-\setlength{\voffset}{-1in}
-\renewcommand{\baselinestretch}{0.96}
+%%\setlength{\paperheight}    {210 truemm}
+%%\setlength{\paperwidth}     {148 truemm}
+%%\setlength{\textheight}     {173 truemm}
+%%\setlength{\textwidth}      {113 truemm}
+%%\setlength{\marginparwidth} {0   truemm}
+%%\setlength{\marginparsep}   {0   truemm}
+%%\setlength{\oddsidemargin}  {15  truemm}
+%%\setlength{\evensidemargin} {15  truemm}
+%%\setlength{\topmargin}      {5   truemm}
+%%\setlength{\headsep}        {5   truemm}
+%%\setlength{\headheight}     {5   truemm}
+%%\setlength{\footskip}       {10  truemm}
+%%\setlength{\hoffset}{-1in}
+%%\setlength{\voffset}{-1in}
+\renewcommand{\baselinestretch}{0.85}
 
 \setlength{\headwidth}{\textwidth}
 
@@ -92,10 +92,10 @@
 \def\texttt{\begingroup\obeyspaces\do@texttt}
 \def\do@texttt#1{\textttorg{\seqsplit{#1\relax}}\endgroup}
 
-\newcommand{\captionsize}{\fontsize{9}{9}\selectfont}
+\renewcommand{\captionsize}{\fontsize{9}{9}\selectfont}
 \newlength{\captionnumwidth}
 \setlength{\captionnumwidth}{6zw}
-\newlength{\captionwidth}
+%%\newlength{\captionwidth}
 \setlength{\captionwidth}{\textwidth}
 \addtolength{\captionwidth}{-\captionnumwidth}
 \def\captionhead{\sffamily{\color{black!30!white}{▲}}}
